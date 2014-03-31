@@ -20,3 +20,4 @@ from gensim import corpora, models, similarities
 from operator import itemgetter
 from itertools import chain
 from nltk.corpus import wordnet as wn
+import pytest
