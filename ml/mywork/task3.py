@@ -31,7 +31,7 @@ stopWords = open('../data/stop_words.txt', 'r').read().split()
 badDeals = open('../data/bad_deals.txt','r') ## file handle to read BadDeals.txt ##
 goodDeals = open('../data/good_deals.txt','r') ## file handle to read GoodDeals.txt ##
 testDeals = open('../data/test_deals.txt','r') ## file handle to read TestDeals.txt ##
-testFileOutput = open('RetailMeNotOutputFile.txt', 'w') ## Ouput file with classified deals ##
+testFileOutput = open('RetailMeNotOutputTask3.txt', 'w') ## Ouput file with classified deals ##
 
 allDeals = open('../data/deals.txt','r')
 allDealList=[]
