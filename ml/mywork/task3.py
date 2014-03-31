@@ -33,7 +33,7 @@ goodDeals = open('../data/good_deals.txt','r') ## file handle to read GoodDeals.
 testDeals = open('../data/test_deals.txt','r') ## file handle to read TestDeals.txt ##
 testFileOutput = open('RetailMeNotOutputFile.txt', 'w') ## Ouput file with classified deals ##
 
-allDeals = open('data/deals.txt','r')
+allDeals = open('../data/deals.txt','r')
 allDealList=[]
 goodDealList=[]
 badDealList=[]
