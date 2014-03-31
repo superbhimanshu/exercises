@@ -59,9 +59,9 @@ for word in typeOfGuitar:
                 similarityDict[word]=maxSimilarity
 
 
-freqdist2 = FreqDist(wordList) ## Frequency distribution of words across the deals ##
-freqdist2 .plot (40, cumulative =False)
-sorted_fredist  = sorted(freqdist2.iteritems(), key=operator.itemgetter(1))
+freqDistWords = FreqDist(wordList) ## Frequency distribution of words across the deals ##
+freqDistWords .plot (40, cumulative =False) ## plotting 40 most frequent words.
+sorted_fredist  = sorted(freqDistWords.iteritems(), key=operator.itemgetter(1))
 f= open('RMN_WORD_FREQ_DATA.txt','w')
 i=0
 while(i!=len(sorted_fredist)):
