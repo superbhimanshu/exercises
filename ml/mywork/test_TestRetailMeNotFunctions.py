@@ -7,7 +7,7 @@
 
 from RetailMeNotHeader import *
 from RetailMeNotFunctions import *
-stopWords = open('stop_words.txt', 'r').read().split()
+stopWords = open('../data/stop_words.txt', 'r').read().split()
 dealsKeyWords = set(['free', 'coupons', 'offer', 'off', 'deals', 'bogo', 'sale','save'])
 
 
